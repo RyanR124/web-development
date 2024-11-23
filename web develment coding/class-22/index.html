@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction to Javascript</title>
+    </head>
+    <p id="pp"></p>
+    <p id="ppp"></p>
+    <body>
+<script>
+    //---------------------------Rules in Javascript--------------------
+    //two slashes are used to hide the code in Java script. front end means the part we can see is done with HTML and CSS.
+    //backend part which makes the page function like; loops, comma varubles are done in javascript.
+    //; is used at the end of every line in javascript. Its like full stop in javascript.
+    //String are always written in " ". Numbers are not writtenb in " ".
+    //---------------------------------------There are three ways to use Javscript-------------------
+    //1. Internal Javascript: In this we do Javascript coding in html file. we use script tag and there we do the coding.
+    //<script>
+    //2. External Javascript : In this we create a seperate file where we do coding. with .js extension.  and connect that file with html file
+    // <script src='script.js'></scriipt>  //
+
+    //----------------------------------------We can do all Javascript coding Here-----------------
+    //Javascript Functions:
+    //1. document.write() : it display a message on screen. it is similar to p tag. 
+    document.write("Hello this is ryan"+"<br>");
+    //Javacsript does calculations so if we use a sign then it will perform the operation and show anserr on the screen
+    document.write("2+3"+"<br>");//output  2+3
+    document.write(2+3+"<br>"); //output: it will firts perform the operation and print the answer on screen
+    //all things will come in on eline so use the br tag so that it can go to next line.
+    // + sign can be used to join the text and variable together. if we put + sign between numbers it gonna add but if we put + between text or variable it will concat
+    //or join them together.
+
+    //2. To combine  HTML and ajavscript eg : let say nwe have creaed a button in HTML and we wnat to do some javascript coding on that then we have to combine that button tags with javascript so that we can do some javscript.
+    //There are multiple ways to do that one of the way is use - document.getElementById("id name")=javscript code
+
+    //in above function getElement means getting the tag and in () we write the tagname or id name and then after = we give javascript coding.
+    //Note : Javascript is case sensitive that means something which is in capital letters has to b ecapital or something which is in small letters have to be in small letters.
+    //When two words are there in function : first word is always small, first letter of the second word is capital.
+    //Except the first word everyother word first letter is capital. if only word is there than everything small.
+    
+    //we get the tag p then innerHTML mneans javscript goes inside HTML and give whatever is written after =
+    document.getElementById("pp").innerHTML=2+3+"<br>";
+    //the answer is 5 which is given to p tag(its works is to give text) and when it gets 5 it displays on screen
+    document.getElementById("ppp").innerHTML="this is good";
+
+
+    //Note : in short write the idof tag in () we want to connect and after = write javascript
+
+
+    //3. window.alert() :to displays a popup message
+    window.alert("This is for coding");
+
+//------------------------------Assignment--------------------------
+//-, *(multiply), /(divide)
+//print the table of 13 in seperate line using document.write from 1 to 10 use 
+//document.write() 10 times
+document.write(13*1+"<br>");
+document.write(13*2+"<br>");
+document.write(13*3+"<br>");
+document.write(13*4+"<br>");
+document.write(13*5+"<br>");
+document.write(13*6+"<br>");
+document.write(13*7+"<br>");
+document.write(13*8+"<br>");
+document.write(13*9+"<br>");
+document.write(13*10+"<br>");
+
+
+    
+    </script>
+    </body>
+</html>
